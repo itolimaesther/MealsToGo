@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/macbook/.nvm/versions/node/v19.6.1/bin/node /usr/local/bin/yarn add --dev eslint prettier @raect-native-community/eslint-config
+
+PATH: 
+  /Users/macbook/.nvm/versions/node/v19.6.1/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/macbook/.rvm/bin:/Users/Library/Android/sdk/platform-tools:/Users/Library/Android/sdk/emulator:/Users/Library/Android/sdk/tools:/Users/Library/Android/sdk/tools/bin:/Users/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.6.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@raect-native-community%2feslint-config: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "mealstogo",
+    "version": "0.0.1",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.15",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
